@@ -1,1 +1,22 @@
-Hello, world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My GitHub page as PWA template</title>
+  <link rel="canonical" href="https://luckyjava.github.io/luckyjava.github.io/" />
+  <link rel="manifest" href="/luckyjava.github.io/manifest.webmanifest">
+</head>
+<body>
+  <h1>My GitHub page as PWA template</h1>
+    …
+  <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/luckyjava.github.io/sw.js',
+          {scope: '/luckyjava.github.io/'}
+        )
+      }
+  </script>
+</body>
+</html>

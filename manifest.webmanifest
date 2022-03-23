@@ -1,0 +1,22 @@
+{
+    "name": "Github Page PWA",
+    "short_name": "CC'PWA",
+
+    "description": "Github Page as a Progressive Web App",
+   
+    "scope": "/luckyjava.github.io/",
+    "start_url": "/luckyjava.github.io/",
+   
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+   
+    "display": "standalone", 
+   
+    "icons": [
+        {
+          "src": "/luckyjava.github.io/img/icon.png",
+          "type": "image/png",
+          "sizes": "700x700"
+        }
+    ]
+  }
